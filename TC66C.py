@@ -25,7 +25,7 @@
 # 19-Jan-2022: fixed error that resistance is reported in 0.1 Ohm units, not 0.01 Ohm 
 #
 import serial,argparse,math,struct,sys
-from Cryptodome.Cipher import AES
+from Crypto.Cipher import AES
 from collections import namedtuple
 from time import sleep,time,localtime,strftime,monotonic
 
